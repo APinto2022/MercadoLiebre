@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de usuario</title>
+</head>
+
+<body>
+    <main>
+        <h1>Formulario de Registro</h1>
+        <form>
+            <ul>
+                <li>
+                    <label>
+                        Apellido
+                        <input type="text" placeholder="Apellido">
+                    </label>
+                </li>
+                <li>
+                    <label>
+                    Nombre
+                    <input type="text" placeholder="Nombre">
+                </label>
+            </li>
+            <li>
+                <label>
+                    Nombre de usuario
+                    <input type="text" placeholder="Nombre de usuario">
+                </label>
+            </li>
+            <li>
+                <label>
+                    Email
+                    <input type="email" placeholder="Email">
+                </label>
+            </li>
+            <li>
+                <label>
+                    Fecha de Nacimiento
+                    <input type="date" placeholder="Fecha de Nacimiento">
+                </label>
+            </li>
+            <li>
+                <label>
+                    Domicilio
+                    <input type="text" placeholder="Domicilio">
+                </label>
+            </li>
+            <li>
+                <label for="Perfil de usuario">Perfil de usuario</label>
+                <select name="Perfil de usuario">
+                    <option value="comprador">Comprador</option>
+                    <option value="vendedor">Vendedor</option>
+                </select>
+            </li>
+        </ul>
+        <ul>
+            <h3>Categorias de Interes</h3>
+            <li><input type="checkbox">Electro</li>
+            <li><input type="checkbox">Moda</li>
+            <li><input type="checkbox">Hogar</li>
+            <li><input type="checkbox">Juguetería</li>
+            <li><input type="checkbox">Vida Sana</li>
+        </ul>
+        <li>
+            <label for="Foto de usuario">Ingresa tu foto
+                 <input type="file" name="Foto de usuario" id="Foto de usuario" accept="image/png, image/jpeg ">
+            </label>
+        </li>
+        <li>
+            <label for="password">Ingresa tu contraseña
+                <input type="password">
+            </label>
+            <label for="Confirmar contraseña">Confirma tu contraseña
+                <input type="password">
+            </label>
+        </li>
+        <button type="submit"><a href="Index.html">Enviar</a></button>
+        <button type="reset">Limpiar formulario</button>
+    </form>
+</main>
+</body>
+
+</html>
