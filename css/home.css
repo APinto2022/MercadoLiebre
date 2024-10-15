@@ -6,6 +6,7 @@
 
 main{
     background-color: #ebebeb;
+    max-width: 90%;
 }
 main section{
     margin:auto;
@@ -13,17 +14,15 @@ main section{
     align-content: center;
     margin-bottom: 30px;
 }
+.mainSectionArticle{
+    margin-top: 10px;
+}
 p{font-size: 12;
 }
 
-h1{
-}
 
 h2{
     font-size :24;
-}
-
-h3{
 }
 
 h4

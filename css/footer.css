@@ -6,5 +6,5 @@ footer {
 }
 .fa-solid{
     text-align: center;
-    margin:auto;
+    display: list-item;
 }
