@@ -1,0 +1,16 @@
+header { background-color: #EAC926;
+}
+
+.burgerButton{
+    align-items: center;
+}
+
+#iconoDeBusqueda{
+    text-align: center;
+}
+#header_div_tarjeta_de_credito{
+    align-items: center;
+}
+nav{
+    text-decoration: none;
+}

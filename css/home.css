@@ -1,0 +1,46 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none
+}
+
+
+main{
+    background-color: #ebebeb;
+}
+main section{
+    margin:auto;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 30px;
+}
+p{font-size: 12;
+}
+
+h1{
+}
+
+h2{
+    font-size :24;
+}
+
+h3{
+}
+
+h4
+{display: flex; justify-content: center;
+}
+.precio{font: size 18px;
+}
+.descripcion{
+    font: size 16px;
+}
+.dcto{font: size 16px;
+    color: #39b54a;
+}
+
+
+
+
+
+
+

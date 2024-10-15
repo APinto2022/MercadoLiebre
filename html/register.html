@@ -5,79 +5,132 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro de usuario</title>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+
+    <script src="https://kit.fontawesome.com/12d6b062ab.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    <main>
-        <h1>Formulario de Registro</h1>
-        <form>
+    <header class="header">
+       
+        <img src="../images/logo-mercado-liebre.svg" alt="logo-mercado-liebre" height=155>
+        <div id="iconoDeBusqueda">
+            <form  action="Buscar">Buscar<input type="text" placeholder="Buscar" ></form>
+           <i class="fa-solid fa-magnifying-glass "></i>
+        </div>
+        <div id="header_div_tarjeta_de_credito">
+            <i class="fa-solid fa-credit-card"></i>
+            <h3>Compra en cuotas y sin tarjeta de credito</h3>
+        </div>
+        
+        <nav class="header_nav">
             <ul>
-                <li>
-                    <label>Apellido
-                        <input type="text" placeholder="Apellido">
+                <li><a href="">Ofertas</a></li>
+                <li><a href="">Tiendas oficiales</a></li>
+                <li><a href="">Vender</a></li>
+                <li><a href="">Ayuda</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="register.html">Crea tu cuenta</a></li>
+                <i class="fa-regular fa-id-card"></i>
+                <li><a href="login.html">Ingresa</a></li>
+                <i class="fa-solid fa-right-to-bracket"></i>
+                <li><a href="">Mis compras</a></li>
+                <i class="fa-solid fa-basket-shopping"></i>
+            </ul>
+        </nav>
+   
+        
+<div class="collapse burgerButton" id="navbarToggleExternalContent" data-bs-theme="dark">
+    <div class="p-4">
+      <h5 class="text-body-emphasis h4">Collapsed content</h5>
+      <span class="text-body-secondary">Toggleable via the navbar brand.</span>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+
+    </header>
+
+    <main>
+        <div>
+
+            <h1>Formulario de Registro</h1>
+            <form>
+                <ul>
+                <li><input type="text" placeholder="Apellido"></li>
+                <li><input type="text" placeholder="Nombre"></li>
+                <li><input type="text" placeholder="Nombre de usuario"></li>
+                <li><input type="email" placeholder="Email"></li>
+                <li><input type="date" placeholder="Fecha de Nacimiento"></li>
+                <li><input type="text" placeholder="Domicilio"></li>
+                <li><label for="Perfil de usuario">Perfil de usuario                   
                     </label>
+                    <select name="Perfil de usuario">
+                        <option value="comprador">Comprador</option>
+                        <option value="vendedor">Vendedor</option>
+                    </select>
                 </li>
-                <li>
-                    <label> Nombre
-                    <input type="text" placeholder="Nombre">
-                </label>
-            </li>
-            <li>
-                <label>Nombre de usuario
-                    <input type="text" placeholder="Nombre de usuario">
-                </label>
-            </li>
-            <li>
-                <label>
-                    Email
-                    <input type="email" placeholder="Email">
-                </label>
-            </li>
-            <li>
-                <label>
-                    Fecha de Nacimiento
-                    <input type="date" placeholder="Fecha de Nacimiento">
-                </label>
-            </li>
-            <li>
-                <label>
-                    Domicilio
-                    <input type="text" placeholder="Domicilio">
-                </label>
-            </li>
-            <li>
-                <label for="Perfil de usuario">Perfil de usuario</label>
-                <select name="Perfil de usuario">
-                    <option value="comprador">Comprador</option>
-                    <option value="vendedor">Vendedor</option>
-                </select>
-            </li>
-        </ul>
-        <ul>
+            </ul>
             <h3>Categorias de Interes</h3>
-            <li><input type="checkbox">Electro</li>
-            <li><input type="checkbox">Moda</li>
-            <li><input type="checkbox">Hogar</li>
-            <li><input type="checkbox">Juguetería</li>
-            <li><input type="checkbox">Vida Sana</li>
-        </ul>
-        <li>
-            <label for="Foto de usuario">Ingresa tu foto
-                 <input type="file" name="Foto de usuario" id="Foto de usuario" accept="image/png, image/jpeg ">
-            </label>
-        </li>
-        <li>
-            <label for="password">Ingresa tu contraseña
-                <input type="password">
-            </label>
-            <label for="Confirmar contraseña">Confirma tu contraseña
-                <input type="password">
-            </label>
-        </li>
-        <button type="submit"><a href="Index.html">Enviar</a></button>
-        <button type="reset">Limpiar formulario</button>
-    </form>
-</main>
+            <ul>
+                <li><input type="checkbox">Electro</li>
+                <li><input type="checkbox">Moda</li>
+                <li><input type="checkbox">Hogar</li>
+                <li><input type="checkbox">Juguetería</li>
+                <li><input type="checkbox">Vida Sana</li>
+            </ul>
+            <li>
+                <label for="Foto de usuario">Ingresa tu foto
+                    <input type="file" name="Foto de usuario" id="Foto de usuario" accept="image/png, image/jpeg ">
+                </label>
+            </li>
+            <li>
+                <label for="password">Ingresa tu contraseña
+                    <input type="password">
+                </label>
+                <label for="Confirmar contraseña">Confirma tu contraseña
+                    <input type="password">
+                </label>
+            </li>
+            <button type="submit"><a href="home.html">Enviar</a></button>
+            <button type="reset">Limpiar formulario</button>
+        </form>
+    </div>
+    </main>
+
+    <footer>
+        <section class="artFooter iconoFooter">
+            <i class="fa-solid fa-credit-card"></i>
+            <h4>Pagá con tarjeta o en efectivo</h4>
+            <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o <br>efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+        </section >
+        <section class="artFooter iconoFooter">
+            <i class="fa-solid fa-gift"></i>
+            <h4>Envío gratis desde $ 2.500</h4>
+            <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en <br></p>
+        </section>
+        <section class="artFooter">
+            <i class="fa-solid fa-shield-halved iconoFooter"></i>
+            <h4>Seguridad, de principio a fin</h4>
+            <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no <br>puedas hacer, porque estás siempre protegid@.</p>
+        </section>
+
+        <h4>Copyright © 1999-2020 MercadoLiebre S.R.L.</h4>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
