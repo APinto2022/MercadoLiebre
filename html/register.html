@@ -5,29 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro de usuario</title>
-    <link rel="stylesheet" href="../css/home.css">
-    <link rel="stylesheet" href="../css/register.css">
-    <link rel="stylesheet" href="../css/login.css">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/footer.css">
-
     <script src="https://kit.fontawesome.com/12d6b062ab.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/styles.css">
+
 
 </head>
 
 <body>
-    <header class="header">
-       
-        <img src="../images/logo-mercado-liebre.svg" alt="logo-mercado-liebre" height=155>
-        <div id="iconoDeBusqueda">
-            <form  action="Buscar">Buscar<input type="text" placeholder="Buscar" ></form>
-           <i class="fa-solid fa-magnifying-glass "></i>
+    <header>
+        <div class="logo-barra-h3">
+          
+            <div class="logo">
+                <img src="../images/logo-mercado-liebre.svg" alt="logo-mercado-liebre" >
+            </div>
+
+            <div id="barraDeBusqueda">
+               <input type="text" placeholder="Buscar productos,marcas" class="inputBusqueda" >
+               <button class="iconoDeBusqueda"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            
+            <div id="header_div_tarjeta_de_credito">
+                <i class="fa-solid fa-credit-card"></i>
+                <h3>Compra en cuotas y sin tarjeta de credito</h3>
+            </div>
         </div>
-        <div id="header_div_tarjeta_de_credito">
-            <i class="fa-solid fa-credit-card"></i>
-            <h3>Compra en cuotas y sin tarjeta de credito</h3>
-        </div>
-        
+
+
         <nav class="header_nav">
             <ul>
                 <li><a href="">Ofertas</a></li>
@@ -45,28 +48,16 @@
                 <i class="fa-solid fa-basket-shopping"></i>
             </ul>
         </nav>
-   
-        
-<div class="collapse burgerButton" id="navbarToggleExternalContent" data-bs-theme="dark">
-    <div class="p-4">
-      <h5 class="text-body-emphasis h4">Collapsed content</h5>
-      <span class="text-body-secondary">Toggleable via the navbar brand.</span>
-    </div>
-  </div>
-  <nav class="navbar navbar-dark">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-  </nav>
+
+       <div class="burgerButton">
+           <i class="fa-solid fa-bars"></i>
+       </div>
 
     </header>
 
     <main>
         <div>
-
-            <h1>Formulario de Registro</h1>
+            <h2>Formulario de Registro</h2>
             <form>
                 <ul>
                 <li><input type="text" placeholder="Apellido"></li>

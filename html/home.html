@@ -5,27 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercado Liebre</title>
-    <link rel="stylesheet" href="../css/home.css">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/footer.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/12d6b062ab.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/styles.css">
+
+
 </head>
 
 <body>
-    <header class="header">
+    <header>
+        <div class="logo-barra-h3">
+          
+            <div class="logo">
+                <img src="../images/logo-mercado-liebre.svg" alt="logo-mercado-liebre" >
+            </div>
 
-        <img src="../images/logo-mercado-liebre.svg" alt="logo-mercado-liebre" height=155>
-        <div id="iconoDeBusqueda">
-            <form action="Buscar">Buscar<input type="text" placeholder="Buscar"></form>
-            <i class="fa-solid fa-magnifying-glass "></i>
+            <div id="barraDeBusqueda">
+               <input type="text" placeholder="Buscar productos,marcas" class="inputBusqueda" >
+               <button class="iconoDeBusqueda"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            
+            <div id="header_div_tarjeta_de_credito">
+                <i class="fa-solid fa-credit-card"></i>
+                <h3>Compra en cuotas y sin tarjeta de credito</h3>
+            </div>
         </div>
-        <div id="header_div_tarjeta_de_credito">
-            <i class="fa-solid fa-credit-card"></i>
-            <h3>Compra en cuotas y sin tarjeta de credito</h3>
-        </div>
+
 
         <nav class="header_nav">
             <ul>
@@ -45,37 +52,34 @@
             </ul>
         </nav>
 
-
-        <div class="collapse burgerButton" id="navbarToggleExternalContent" data-bs-theme="dark">
-            <div class="p-4">
-                <h5 class="text-body-emphasis h4">Collapsed content</h5>
-                <span class="text-body-secondary">Toggleable via the navbar brand.</span>
-            </div>
-        </div>
-        <nav class="navbar navbar-dark">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-        </nav>
+       <div class="burgerButton">
+           <i class="fa-solid fa-bars"></i>
+       </div>
 
     </header>
 
     <main>
-        <section>
-            <h2>Basado en tu última visita</h2>
+        <section class="container-section">
+            <div><h2>Basado en tu última visita</h2></div>
+            
+            <article class="mainSectionArticle"> 
 
-            <article class="mainSectionArticle">
-                <img src="../images/img-cafetera-moulinex.jpg" alt="Cafetera Moulinex">
-                <div>
-                    <i class="fa-solid fa-truck"></i>
+                <div class="img-art">
+                    <img src="../images/img-cafetera-moulinex.jpg" alt="Cafetera Moulinex">
+                </div>
+
+                <div class="descripcion-articulo">
+                   
+                    <div class="camioncito">
+                        <i class="fa-solid fa-truck"></i>
+                    </div>
+
                     <p class="precio">$6.770</p>
                     <p class="dcto"> 40% OFF</p>
                     <h4 class="descripcion"> Cafetera Moulinex</h4>
+               
                 </div>
+
             </article>
 
             <article class="mainSectionArticle">
@@ -102,14 +106,14 @@
                 <img src="../images/img-tv-samsung-smart.jpg" alt="SmartTv Samsung 43"">
                 <div>
                     <i class=" fa-solid fa-truck"></i>
-                    <p class=" precio"> $23.200 </p>
-                    <p class="dcto">5% off </p>
-                    <h4 class="descripcion"> SmartTv Samsung 43" </h4>
+                <p class=" precio"> $23.200 </p>
+                <p class="dcto">5% off </p>
+                <h4 class="descripcion"> SmartTv Samsung 43" </h4>
                 </div>
             </article>
         </section>
 
-        <section>
+        <section class="container-section">
             <h2>Ofertas</h2>
 
             <article class="mainSectionArticle">
@@ -146,9 +150,9 @@
                 <img src="../images/img-tv-samsung-smart.jpg" alt="SmartTv Samsung 43"">
                 <div>
                     <i class=" fa-solid fa-truck"></i>
-                    <p class=" precio"> $23.200 </p>
-                    <p class="dcto">5% off </p>
-                    <h4 class="descripcion"> SmartTv Samsung 43" </h4>
+                <p class=" precio"> $23.200 </p>
+                <p class="dcto">5% off </p>
+                <h4 class="descripcion"> SmartTv Samsung 43" </h4>
                 </div>
             </article>
         </section>

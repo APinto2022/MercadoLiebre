@@ -1,45 +1,89 @@
-* {
-    font-family: 'Roboto', sans-serif;
-    list-style-type: none
+.camioncito {
+    color: #39b54a;
+    width: 90%;
+    display: flex;
+
+    /* flex-direction: row-reverse;  para tp6 */
+}
+
+.fa-truck {
+    width: 10%;
+    height: 75%;
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    border: solid 1px #39b54a;
+    border-radius: 100%;
+    padding: 5px;
+    margin-top: 10px;
+
+
+
+}
+
+.container-section {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 
-main{
-    background-color: #ebebeb;
-    max-width: 90%;
+.mainSectionArticle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    gap: 2px;
 }
-main section{
-    margin:auto;
+
+
+
+.img-art {
+    background-color: white;
+
+    img {
+        width: 100%;
+    }
+
+}
+
+
+
+
+.descripcion-articulo {
+    background-color: white;
+}
+
+main section {
+    margin: auto;
     text-align: center;
     align-content: center;
     margin-bottom: 30px;
 }
-.mainSectionArticle{
-    margin-top: 10px;
-}
-p{font-size: 12;
+
+p {
+    font-size: 12;
 }
 
-
-h2{
-    font-size :24;
+h2 {
+    font-size: 24;
 }
 
-h4
-{display: flex; justify-content: center;
+h4 {
+    display: flex;
+    justify-content: center;
 }
-.precio{font: size 18px;
+
+.precio {
+    font: size 18px;
 }
-.descripcion{
+
+.descripcion {
     font: size 16px;
 }
-.dcto{font: size 16px;
+
+.dcto {
+    font: size 16px;
     color: #39b54a;
 }
-
-
-
-
-
-
-
