@@ -16,9 +16,6 @@
     border-radius: 100%;
     padding: 5px;
     margin-top: 10px;
-
-
-
 }
 
 .container-section {
@@ -37,42 +34,16 @@
     gap: 2px;
 }
 
-
-
 .img-art {
     background-color: white;
 
     img {
         width: 100%;
     }
-
 }
-
-
-
 
 .descripcion-articulo {
     background-color: white;
-}
-
-main section {
-    margin: auto;
-    text-align: center;
-    align-content: center;
-    margin-bottom: 30px;
-}
-
-p {
-    font-size: 12;
-}
-
-h2 {
-    font-size: 24;
-}
-
-h4 {
-    display: flex;
-    justify-content: center;
 }
 
 .precio {

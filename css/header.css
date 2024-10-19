@@ -1,20 +1,37 @@
 
-
-.burgerButton{
-    align-items: center;
+.header_div_tarjeta_de_credito{
+    display: inline-block;
+    
 }
 
 
-#header_div_tarjeta_de_credito{
-    align-items: center;
-}
+
 .logo-barra-h3{
     width: 100%;
 }
+
+
+
 .logo img{
-width: 35%;
-
+    width: 100%; 
 }
-.iconoDeBusqueda{
 
+
+.nav-ul-li{
+    text-decoration: none;
+}
+
+
+.iconoDeBusqueda{
+    display: flex;
+    
+}
+
+
+.headerDivTop{
+    display: flex;
+}
+
+.burgerButton{
+    align-items: center;
 }

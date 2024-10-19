@@ -11,6 +11,11 @@
     list-style-type: none;
     font-size: 12;
 }
+.nav-li-a{
+    text-decoration: none;
+    font-size: 10;
+
+}
 
 body {
     background-color: #ebebeb;
@@ -19,11 +24,9 @@ body {
     width: 100%;
 
 }
-header { background-color: #EAC926;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    
+header { 
+    background-color: #EAC926;
+
 }
 
 main {
@@ -33,6 +36,12 @@ main {
     justify-content: center;
     flex-direction: column;
     gap: 2px;
+}
+main section {
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 30px;
 }
 
 
@@ -46,4 +55,20 @@ footer {
 
 nav{
     text-decoration: none;
+}
+
+p {
+    font-size: 12;
+}
+
+h2 {
+    font-size: 24;
+}
+h3{
+
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
 }
