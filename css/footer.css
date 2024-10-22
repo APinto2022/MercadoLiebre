@@ -2,4 +2,34 @@
 .fa-solid{
     text-align: center;
 
+   
+}
+
+
+
+.footer-div{
+    width: 100%; 
+    padding: 10px;   
+}
+.artFooter{
+width: 100%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.pDelFooter{
+    padding: 5px;
+    text-align: center;
+    
+    
+
+}
+.copyright{
+text-align: start;
+color: gray;
+font-size: 14px;
+width: 100%;
+}
+.iconoFooter{
+    color: blue;
 }
