@@ -11,11 +11,9 @@
     list-style-type: none;
     font-size: 12;
 }
-.nav-li-a{
-    text-decoration: none;
-    font-size: 10;
 
-}
+
+
 
 body {
     background-color: #ebebeb;
@@ -27,34 +25,24 @@ body {
 header { 
     background-color: #EAC926;
 
+
 }
 
 main {
-    max-width: 90%;
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 2px;
 }
-main section {
-    margin: auto;
-    text-align: center;
-    align-content: center;
-    margin-bottom: 30px;
-}
 
 
 footer {
-    
+    background-color: white;
     display: flex;
     flex-direction: column; 
     align-items: center; 
-}
-
-
-nav{
-    text-decoration: none;
 }
 
 p {
@@ -64,11 +52,22 @@ p {
 h2 {
     font-size: 24;
 }
-h3{
+
+h3{font-size: 16px;
 
 }
 
 h4 {
     display: flex;
     justify-content: center;
+}
+li{
+    display: flex;
+    
+    
+}
+a{
+    color:  #03264C;
+
+    text-decoration: none;
 }

@@ -1,37 +1,38 @@
 
-.header_div_tarjeta_de_credito{
-    display: inline-block;
-    
+.logo-mercado-liebre{
+    width: 400px; 
 }
 
-
-
-.logo-barra-h3{
-    width: 100%;
-}
-
-
-
-.logo img{
-    width: 100%; 
-}
-
-
-.nav-ul-li{
-    text-decoration: none;
-}
-
-
-.iconoDeBusqueda{
+.fa-credit-card{
     display: flex;
-    
+font-size: 10
+;
 }
+.header_nav{
 
-
-.headerDivTop{
+    width: 70%;
     display: flex;
-}
+    justify-content: start;
+    flex-direction: column;
 
+}
 .burgerButton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    padding: 5px;
+
+}
+
+.fa-bars{
+    width: 2em;
+    height: 25px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%;
+    background-color: #03264C;
+    color: #fff;
 }

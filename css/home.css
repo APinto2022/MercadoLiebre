@@ -1,44 +1,36 @@
-.camioncito {
-    color: #39b54a;
-    width: 90%;
-    display: flex;
+.tituloDeSeccion {
+width: 100%;
 
-    /* flex-direction: row-reverse;  para tp6 */
-}
-
-.fa-truck {
-    width: 10%;
-    height: 75%;
-    display: flex;
-    justify-content: start;
-    text-align: start;
-    border: solid 1px #39b54a;
-    border-radius: 100%;
-    padding: 5px;
-    margin-top: 10px;
 }
 
 .container-section {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-
-.mainSectionArticle {
     width: 100%;
     display: flex;
     flex-direction: column;
+    gap: 20px;
+    margin: 0;
+    text-align: center;
+    align-content: center;
+}
+
+.mainSectionArticle {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
     background-color: transparent;
+    justify-content: center;
     gap: 2px;
+
 }
 
 .img-art {
     background-color: white;
 
     img {
+        max-width: 250px;
         width: 100%;
+        text-align: center;
+        height: auto;
     }
 }
 
@@ -57,4 +49,24 @@
 .dcto {
     font: size 16px;
     color: #39b54a;
+}
+
+.fa-truck {
+    width: 10%;
+    height: 75%;
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    border: solid 1px #39b54a;
+    border-radius: 100%;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.camioncito {
+    color: #39b54a;
+    width: 90%;
+    display: flex;
+
+    /* flex-direction: row-reverse;  para tp6 */
 }
