@@ -14,12 +14,12 @@ width: 100%;
 }
 
 .mainSectionArticle {
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     background-color: transparent;
     justify-content: center;
-    gap: 2px;
+    gap: 10px;
 
 }
 
@@ -36,7 +36,9 @@ width: 100%;
 
 .descripcion-articulo {
     background-color: white;
-}
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+  }
 
 .precio {
     font: size 18px;
@@ -52,21 +54,15 @@ width: 100%;
 }
 
 .fa-truck {
+    color: #39b54a;
     width: 10%;
     height: 75%;
-    display: flex;
-    justify-content: start;
-    text-align: start;
-    border: solid 1px #39b54a;
-    border-radius: 100%;
+    border: solid 2px #39b54a;
+    border-radius: 80%;
     padding: 5px;
     margin-top: 10px;
+ 
 }
-
-.camioncito {
-    color: #39b54a;
-    width: 90%;
-    display: flex;
-
-    /* flex-direction: row-reverse;  para tp6 */
+div.camioncito{
+    display:block
 }
