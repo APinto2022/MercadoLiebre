@@ -1,68 +1,68 @@
 .tituloDeSeccion {
-width: 100%;
-
-}
-
-.container-section {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin: 0;
-    text-align: center;
-    align-content: center;
-}
-
-.mainSectionArticle {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    background-color: transparent;
-    justify-content: center;
-    gap: 10px;
-
-}
-
-.img-art {
-    background-color: white;
-
-    img {
-        max-width: 250px;
-        width: 100%;
-        text-align: center;
-        height: auto;
+    
     }
-}
-
-.descripcion-articulo {
-    background-color: white;
-    border-top: 1px solid #ebebeb;
-    padding: 15px;
-  }
-
-.precio {
-    font: size 18px;
-}
-
-.descripcion {
-    font: size 16px;
-}
-
-.dcto {
-    font: size 16px;
-    color: #39b54a;
-}
-
-.fa-truck {
-    color: #39b54a;
-    width: 10%;
-    height: 75%;
-    border: solid 2px #39b54a;
-    border-radius: 80%;
-    padding: 5px;
-    margin-top: 10px;
- 
-}
-div.camioncito{
-    display:block
-}
+    
+    .container-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin: 0;
+        text-align: center;
+        align-content: center;
+    }
+    
+    .mainSectionArticle {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: transparent;
+        justify-content: center;
+        gap: 10px;
+    
+    }
+    
+    .img-art {
+        background-color: white;
+    
+        img {
+            max-width: 250px;
+            width: 100%;
+            text-align: center;
+            height: auto;
+        }
+    }
+    
+    .descripcion-articulo {
+        background-color: white;
+        border-top: 1px solid #ebebeb;
+        padding: 15px;
+      }
+    
+    .precio {
+        font: size 18px;
+    }
+    
+    .descripcion {
+        font: size 16px;
+    }
+    
+    .dcto {
+        font: size 16px;
+        color: #39b54a;
+    }
+    
+    .fa-truck {
+        color: #39b54a;
+        width: 10%;
+        height: 75%;
+        border: solid 2px #39b54a;
+        border-radius: 80%;
+        padding: 5px;
+        margin-top: 10px;
+     
+    }
+    div.camioncito{
+        display:block
+    }
