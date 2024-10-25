@@ -8,6 +8,9 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
     list-style-type: none;
     font-size: 12px;
 }
@@ -26,7 +29,7 @@ header {
 }
 
 main {
-    width: 90%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,11 +61,7 @@ h4 {
     display: flex;
     justify-content: center;
 }
-li{
-    display: flex;
-    
-    
-}
+
 a{
     color : #03264C;
     text-decoration: none;
